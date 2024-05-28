@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../../views/App/App";
+import Welcome from "../../views/Welcome/Welcome";
 
 const Router = () => {
   const Router = createBrowserRouter([
@@ -8,6 +9,10 @@ const Router = () => {
       element: <App />,
       errorElement: <>Error</>,
       children: [
+        {
+          index: true,
+          element: <Welcome />
+        },
         {
           path:'/about',
           element: <>About</>

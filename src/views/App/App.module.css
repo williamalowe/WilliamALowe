@@ -16,11 +16,12 @@
 .content {
   margin-top: 2rem;
   width: 1176px;
-  height: 10px;
   z-index: 20;
 }
 .page_view {
-  width: 1024px;
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
