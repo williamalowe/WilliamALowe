@@ -1,9 +1,10 @@
+import GlitchHeader from '../../components/GlitchHeader/GlitchHeader';
 import styles from './Welcome.module.css';
 
 const Welcome = () => {
   return (
     <div className={styles.welcome}>
-      hello world
+      <GlitchHeader text = "William Lowe"/>
     </div>
   )
 }

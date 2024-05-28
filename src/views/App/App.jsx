@@ -16,7 +16,9 @@ const App = () => {
       <section className={styles.content}>
         <Navbar />
         <div className={styles.page_view}>
-          <Outlet />
+          <div className={styles.output}>
+            <Outlet />
+          </div>
         </div>
         <ThemeSwitch 
           handleClick={() => setIsDark(!isDark)}
