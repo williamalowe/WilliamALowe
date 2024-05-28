@@ -2,8 +2,15 @@
 
 :root { 
   --text-color: #1d1f21;
-  --background-color: #c8c9cb;
+	--bg-primary: #fff;
+	--bg-secondary: #1d1f212d;
   /* --highlight-color: rgb(76, 205, 153); */
+}
+
+[data-theme="dark"] {
+  --text-color: #fff;
+	--bg-primary: #1d1f21;
+	--bg-secondary: #ffffff1c;
 }
 
 html, body, div, span, applet, object, iframe,

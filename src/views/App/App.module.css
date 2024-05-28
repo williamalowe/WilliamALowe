@@ -1,12 +1,20 @@
 .app {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
+}
+.bg_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 .content {
   margin-top: 2rem;
   width: 1176px;
   height: 10px;
-  /* background: red; */
+  z-index: 20;
 }
