@@ -9,8 +9,21 @@ const Router = () => {
       errorElement: <>Error</>,
       children: [
         {
-
-        }
+          path:'/about',
+          element: <>About</>
+        },
+        {
+          path:'/projects',
+          element: <>Projects</>
+        },
+        {
+          path:'/experience',
+          element: <>Experience</>
+        },
+        {
+          path:'/contact',
+          element: <>Contact</>
+        },
       ]
     }
   ])
