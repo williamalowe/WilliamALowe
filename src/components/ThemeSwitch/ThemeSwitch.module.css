@@ -1,4 +1,7 @@
 .switch {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
   padding: 0;
   width: 2rem;
   height: 2rem;
