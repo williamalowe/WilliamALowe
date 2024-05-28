@@ -1,15 +1,12 @@
 .app {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
-.background {
-  position: absolute;
-  top: 0;
-  left: 12;
-  width: 100vw;
-  height: 100vh;
-  background-color: #c8c9cb;
-  opacity: 0.1;
-  background-image:  linear-gradient(#1d1f21 1px, transparent 1px), linear-gradient(to right, #1d1f21 1px, #c8c9cb 1px);
-  background-size: 120px 120px;
+.content {
+  margin-top: 2rem;
+  width: 1176px;
+  height: 10px;
+  /* background: red; */
 }

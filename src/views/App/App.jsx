@@ -1,9 +1,13 @@
+import Background from '../../components/Background/Background';
 import styles from './App.module.css';
 
 const App = () => {
   return (
     <main className={styles.app}>
-      <div className={styles.background}></div>
+      <Background />
+      <section className={styles.content}>
+        
+      </section>
     </main>
   )
 }
