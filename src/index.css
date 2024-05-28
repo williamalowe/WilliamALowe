@@ -3,14 +3,14 @@
 :root { 
   --text-color: #1d1f21;
 	--bg-primary: #fff;
-	--bg-secondary: #1d1f212d;
+	--bg-secondary: #1d1f210c;
   /* --highlight-color: rgb(76, 205, 153); */
 }
 
 [data-theme="dark"] {
   --text-color: #fff;
 	--bg-primary: #1d1f21;
-	--bg-secondary: #ffffff1c;
+	--bg-secondary: #ffffff04;
 }
 
 html, body, div, span, applet, object, iframe,

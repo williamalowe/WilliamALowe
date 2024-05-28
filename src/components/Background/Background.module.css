@@ -5,7 +5,6 @@
   width: 110vw;
   height: 110vh;
   background-color: var(--bg-primary);
-  /* opacity: 1; */
   background-image: linear-gradient(var(--bg-secondary) 1px, transparent 1px),
     linear-gradient(to right, var(--bg-secondary) 1px, var(--bg-primary) 1px);
   background-size: 120px 120px;
