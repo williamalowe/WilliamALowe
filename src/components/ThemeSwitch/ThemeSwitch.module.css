@@ -1,0 +1,18 @@
+.switch {
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--text-color);
+  background: var(--text-color);
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+}
+.switch > div {
+  flex: 1;
+  height: 100%;
+}
+.switch > div:last-child {
+  background: var(--bg-primary);
+}
