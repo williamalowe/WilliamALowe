@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Background from '../../components/Background/Background';
 import styles from './App.module.css';
+import Navbar from '../../components/Navbar/Navbar';
 
 const App = () => {
   const [isDark, setIsDark] = useState(false);
@@ -11,7 +12,7 @@ const App = () => {
         <Background />
       </div>
       <section className={styles.content}>
-        <h1>test</h1>
+        <Navbar />
       </section>
     </main>
   )

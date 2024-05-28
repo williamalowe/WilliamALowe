@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+#nav {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  font-size: 2rem;
+  
+}
+.nav-link-container {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
