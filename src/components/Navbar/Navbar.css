@@ -61,11 +61,12 @@ a {
   gap: 0.25rem;
   background: var(--bg-primary);
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1176px) {
   #nav {
     width: 95%;
   }
+}
+@media screen and (max-width: 768px) {
   #logo {
     font-size: 2rem;
   }
