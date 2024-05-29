@@ -4,14 +4,16 @@
   --text-color: #1d1f21;
 	--bg-primary: #fff;
 	--bg-secondary: #1d1f210c;
-  --highlight-color: #4ccd99;
+  /* --highlight-color: #4ccd99; */
+  --highlight-color: #1d1f21;
 }
 
 [data-theme="dark"] {
   --text-color: #fff;
 	--bg-primary: #1d1f21;
 	--bg-secondary: #ffffff04;
-  --highlight-color: #4ccd99;
+  /* --highlight-color: #4ccd99; */
+  --highlight-color: #fff;
 }
 
 html, body, div, span, applet, object, iframe,
