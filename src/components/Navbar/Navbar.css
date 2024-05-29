@@ -8,37 +8,62 @@ a {
 #logo {
   font-size: 3rem;
   font-weight: 600;
-  -webkit-text-stroke: 2px var(--text-color);
-  color: var(--bg-primary);
 }
-#nav > a.active > #logo {
-  color: var(--text-color);
-  -webkit-text-stroke: 0px var(--text-color);
-}
-.nav-link-container {
+.nav_link_container {
   margin-left: auto;
   display: flex;
   gap: 1rem;
 }
-.nav-link-container > a > .underline {
+.nav_link_container > a > .underline {
   width: 0%;
   height: 1px;
   background: var(--highlight-color);
   transition: width 0.3s ease-in-out;
 }
-.nav-link-container > a {
+.nav_link_container > a {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.25rem;
 }
-.nav-link-container > a.active {
+.nav_link_container > a.active {
   font-weight: 800;
   color: var(--highlight-color);
 }
-.nav-link-container > a.active > .underline {
+.nav_link_container > a.active > .underline {
   width: 100%;
 }
-.nav-link-container > a:hover > .underline {
+.nav_link_container > a:hover > .underline {
   width: 100%;
+}
+.mobile {
+  display: none;
+  margin-left: auto;
+}
+.mobile > button {
+  border: none;
+  background: none;
+  font-family: "M PLUS 1 Code", monospace;
+  font-size: 1rem;
+}
+.mobile_links {
+  position: absolute;
+  margin-top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    font-size: 2rem;
+  }
+  .nav_link_container {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
