@@ -11,7 +11,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
         >
-          WL
+          &#123; WL &#125;
         </motion.div>
       </NavLink>
       <div className="nav-link-container">

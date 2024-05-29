@@ -6,11 +6,14 @@ a {
   align-items: center;
 }
 #logo {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  -webkit-text-stroke: 2px var(--text-color);
+  color: var(--bg-primary);
 }
 #nav > a.active > #logo {
-  color: var(--highlight-color);
-  font-weight: 800;
+  color: var(--text-color);
+  -webkit-text-stroke: 0px var(--text-color);
 }
 .nav-link-container {
   margin-left: auto;
