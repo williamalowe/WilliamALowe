@@ -19,3 +19,10 @@
 .switch > div:last-child {
   background: var(--bg-primary);
 }
+
+@media screen and (max-width: 768px) {
+  .switch {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

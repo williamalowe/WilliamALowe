@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   transition: all 0.5s ease-in-out;
+  background: var(--bg-primary);
+  padding-bottom: 1rem;
   overflow: hidden;
 }
 .bg_wrapper {
