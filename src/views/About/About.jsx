@@ -1,3 +1,4 @@
+import CardDeck from '../../components/CardDeck/CardDeck';
 import Header from '../../components/Header/Header';
 import styles from './About.module.css';
 
@@ -8,6 +9,9 @@ const About = () => {
         bodyText='About'
         highlightText='Me.'
       />
+      <div className={styles.shuffle}>
+        <CardDeck />
+      </div>
     </div>
   )
 }

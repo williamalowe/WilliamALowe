@@ -7,6 +7,9 @@
   padding-bottom: 1rem;
   overflow: hidden;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 .bg_wrapper {
   flex: 1;
   position: absolute;
@@ -20,6 +23,7 @@
   margin-top: 2rem;
   width: 1176px;
   z-index: 20;
+  height: 100%;
 }
 .page_view {
   margin-top: 10rem;

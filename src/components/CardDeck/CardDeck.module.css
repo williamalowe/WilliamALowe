@@ -1,0 +1,43 @@
+.deck {
+  width: 1024px;
+  height: 600px;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.deck > div {
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+}
+.deck > div:nth-child(1) {
+  transform: translate(10%, 0%) rotate(5deg);
+}
+.deck > div:nth-child(2) {
+  transform: translate(-6%, 0) rotate(-4deg);
+}
+.deck > div:nth-child(3) {
+  transform: rotate(1deg);
+}
+.deck > div:nth-child(4) {
+  transform: translate(8%, 0) rotate(-2deg);
+}
+.deck > div:hover {
+  z-index: 100;
+}
+.deck:hover > div:nth-child(1) {
+  transform: translate(100%, 22.5%) rotate(30deg);
+
+}
+.deck:hover > div:nth-child(2) {
+  transform: translate(40%, 7.5%) rotate(10deg);
+
+}
+.deck:hover > div:nth-child(3) {
+  transform: translate(-20%, 7.5%) rotate(-10deg);
+
+}
+.deck:hover > div:nth-child(4) {
+  transform: translate(-80%, 22.5%) rotate(-30deg);
+
+}
