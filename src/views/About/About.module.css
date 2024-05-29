@@ -1,0 +1,10 @@
+.about {
+  width: 1024px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: 100%;
+  }
+}
