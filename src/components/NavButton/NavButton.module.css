@@ -26,3 +26,9 @@
 .arrow {
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .navbutton {
+    margin: 1rem 0;
+  }
+}
