@@ -1,9 +1,7 @@
 .background {
   position: absolute;
-  top: -1rem;
-  left: -1rem;
-  width: 110vw;
-  height: 110vh;
+  width: 200vw;
+  height: 200vh;
   background-color: var(--bg-primary);
   background-image: linear-gradient(var(--bg-secondary) 1px, transparent 1px),
     linear-gradient(to right, var(--bg-secondary) 1px, var(--bg-primary) 1px);
