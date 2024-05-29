@@ -23,3 +23,6 @@
 .navbutton:hover > a > .text > .underline {
   width: 100%;
 }
+.arrow {
+  margin-bottom: 0.5rem;
+}
