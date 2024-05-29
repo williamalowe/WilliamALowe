@@ -8,12 +8,12 @@ const Welcome = () => {
   return (
     <div className={styles.welcome}>
       <Header bodyText="Hi there, I'm" highlightText="William Lowe." />
-      <WelcomeBanner />
+      {/* <WelcomeBanner />
       <NavButton 
         link={'./about'}
         text={'Learn more about me'}
       />
-      <Socials />
+      <Socials /> */}
     </div>
   );
 };

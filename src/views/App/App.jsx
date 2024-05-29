@@ -17,7 +17,7 @@ const App = () => {
         <Navbar />
         <div className={styles.page_view}>
           <div className={styles.output}>
-            {/* <Outlet /> */}
+            <Outlet />
           </div>
         </div>
         <ThemeSwitch 
