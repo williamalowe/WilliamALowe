@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import NavButton from "../../components/NavButton/NavButton";
+import Socials from "../../components/Socials/Socials";
 import WelcomeBanner from "../../components/WelcomeBanner/WelcomeBanner";
 import styles from "./Welcome.module.css";
 
@@ -12,6 +13,7 @@ const Welcome = () => {
         link={'./about'}
         text={'Learn more about me'}
       />
+      <Socials />
     </div>
   );
 };
