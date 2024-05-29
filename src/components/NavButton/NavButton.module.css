@@ -1,0 +1,25 @@
+.navbutton {
+  margin: 2rem 0;
+  width: fit-content;
+}
+.navbutton > a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.underline {
+  margin-top: 0.5rem;
+  width: 0%;
+  height: 2px;
+  background: var(--text-color);
+  transition: width 0.3s ease-in-out;
+}
+.navbutton:hover > a > .text > .underline {
+  width: 100%;
+}
