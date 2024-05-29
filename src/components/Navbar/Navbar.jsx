@@ -8,12 +8,22 @@ const Navbar = () => {
   const [viewPage, setViewPage] = useState(" ... ");
 
   const mobNavMenu = {
+    hidden: {
+      opacity: 0,
+      y: -16,
+    },
     visible: {
+      opacity: 1,
+      y: 0,
       transition: {
         duration: 0.5,
         delayChildren: 0.2,
         staggerChildren: 0.1,
       },
+    },
+    exit: {
+      opacity: 0,
+      y: -5,
     },
   };
   const mobNavLink = {
