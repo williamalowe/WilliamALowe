@@ -1,0 +1,16 @@
+.welcome {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.welcome > p > span {
+  /* text-decoration: underline; */
+}
+.welcome > p > a {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.welcome > p > a:hover {
+  text-decoration: underline;
+}
