@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import styles from "./ProjectCard.module.css";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({
   alignment,
@@ -47,12 +48,30 @@ const ProjectCard = ({
         </div>
         {/* links */}
         <div className={styles.links}>
-          <a href={repoURL} target="_blank">
+          <motion.a
+            href={repoURL}
+            target="_blank"
+            whileHover={{
+              scale: 1.1,
+            }}
+            whileTap={{
+              scale: 0.9,
+            }}
+          >
             Repo Link
-          </a>
-          <a href={demoURL} target="_blank">
+          </motion.a>
+          <motion.a
+            href={demoURL}
+            target="_blank"
+            whileHover={{
+              scale: 1.1,
+            }}
+            whileTap={{
+              scale: 0.9,
+            }}
+          >
             Demo Link
-          </a>
+          </motion.a>
         </div>
       </div>
       <div className={styles.img}>
