@@ -1,0 +1,17 @@
+.experience {
+  width: 1024px;
+  height: 100%;
+}
+.content {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    width: 100%;
+  }
+}
