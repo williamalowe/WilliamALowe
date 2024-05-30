@@ -8,12 +8,18 @@
   gap: 1rem;
   text-align: center;
 }
+.others > article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
 .others > article > h5 {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
 .others > article > ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 0.5rem ;
@@ -24,8 +30,20 @@
 
 }
 .others > article > ul > li::before {
-  content: "| ";
+  content: " | ";
 }
 .others > article > ul > li:first-child::before {
   content: "";
+}
+
+@media screen and (max-width: 768px) {
+  .others {
+    height: fit-content;
+  }
+  .others > article > ul {
+    font-size: 0.8rem;
+  }
+  .others > article > ul > li::before {
+    content: "";
+  }
 }
