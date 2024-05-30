@@ -1,0 +1,10 @@
+.projects {
+  width: 1024px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    width: 100%;
+  }
+}
