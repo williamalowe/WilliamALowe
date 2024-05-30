@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "projectName": "Dockitt",
+      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI"],
+      "projectIterations": ["Additional supported resolutions (tablet, etc)", "MongoDB integration", "Light-mode theme", "Kanban-board view option"],
+      "projectImage": "./projects/dockitt.png",
+      "repoURL": "https://github.com/williamalowe/Dockitt",
+      "demoURL": "https://dockitt.netlify.app/tasks"
+    },
+    {
+      "projectName": "ThreadHundred",
+      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "framer-motion", "ContextAPI"],
+      "projectIterations": ["Demo checkout form", "Product search/filtering option", "Light-mode theme"],
+      "projectImage": "./projects/threadhundred.png",
+      "repoURL": "https://github.com/williamalowe/ThreadHundred",
+      "demoURL": "https://threadhundred.netlify.app"
+    },
+    {
+      "projectName": "WeatherWatcher",
+      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectStack": ["React (vite)", "css-modules", "framer-motion", "WeatherAPI"],
+      "projectIterations": ["Manual location selection", "Additional/toggleable forecast fields", "Black & White theme"],
+      "projectImage": "./projects/weatherwatcher.png",
+      "repoURL": "https://github.com/williamalowe/WeatherWatcher",
+      "demoURL": "https://wl-weatherwatcher.netlify.app"
+    },
+    {
+      "projectName": "ResuMate",
+      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectStack": ["React (vite)", "css-modules", "framer-motion"],
+      "projectIterations": ["Mobile resolution support", "PDF output/download", "Resume theme selection"],
+      "projectImage": "./projects/resumate.png",
+      "repoURL": "https://github.com/williamalowe/Resumate",
+      "demoURL": "https://wl-resumate.netlify.app"
+    },
+    {
+      "projectName": "Diskord",
+      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectStack": ["React (vite)", "css-modules", "framer-motion"],
+      "projectIterations": ["Recreate additional pages with routing."],
+      "projectImage": "./projects/diskord.png",
+      "repoURL": "https://github.com/williamalowe/Diskord",
+      "demoURL": "https://wl-diskord.netlify.app"
+    }
+  ]
+}
