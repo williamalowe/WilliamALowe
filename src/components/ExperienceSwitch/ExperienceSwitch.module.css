@@ -34,10 +34,14 @@
   height: 100%;
 }
 .left > .fill {
-  right: 0
+  right: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 .right > .fill {
-  left: 0
+  left: 0;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 .active {
   color: var(--bg-primary);
