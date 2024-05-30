@@ -2,8 +2,8 @@
   "projects": [
     {
       "projectName": "Dockitt",
-      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
-      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI"],
+      "projectDescription": "A productivity and task management application that allows for easy task generation and task state management. Tasks are persistent with the use of local-storage and can be filtered, updated, and cancelled. Desktop, laptop, and mobile resolutions are supported.",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI", "local-storage"],
       "projectIterations": ["Additional supported resolutions (tablet, etc)", "MongoDB integration", "Light-mode theme", "Kanban-board view option"],
       "projectImage": "./projects/dockitt.png",
       "repoURL": "https://github.com/williamalowe/Dockitt",
@@ -11,7 +11,7 @@
     },
     {
       "projectName": "ThreadHundred",
-      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectDescription": "A demo e-commerce application which includes a company page, products page, checkout, and contact form. Total costs are updated live, and discount can be applied with enough spending. Desktop, laptop, and mobile resolutions are supported.",
       "projectStack": ["React (vite)", "css-modules", "react-router-dom", "framer-motion", "ContextAPI"],
       "projectIterations": ["Demo checkout form", "Product search/filtering option", "Light-mode theme"],
       "projectImage": "./projects/threadhundred.png",
@@ -20,7 +20,7 @@
     },
     {
       "projectName": "WeatherWatcher",
-      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectDescription": "A basic weather-forecast SPA, using WeatherAPI and location-services to provide a three-day weather forecast for your local area (or Melbourne as default). Application includes custom messages based on weather statuses, and is supported on desktops, laptops, and mobile devices.",
       "projectStack": ["React (vite)", "css-modules", "framer-motion", "WeatherAPI"],
       "projectIterations": ["Manual location selection", "Additional/toggleable forecast fields", "Black & White theme"],
       "projectImage": "./projects/weatherwatcher.png",
@@ -29,7 +29,7 @@
     },
     {
       "projectName": "ResuMate",
-      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectDescription": "A resume-building SPA, built to showcase React fundamentals. Includes state-management, and input validation. Currently only supported on desktop and laptop resolutions.",
       "projectStack": ["React (vite)", "css-modules", "framer-motion"],
       "projectIterations": ["Mobile resolution support", "PDF output/download", "Resume theme selection"],
       "projectImage": "./projects/resumate.png",
@@ -38,7 +38,7 @@
     },
     {
       "projectName": "Diskord",
-      "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita at quo nam autem, possimus culpa minus aliquid voluptatibus voluptates ipsam ex pariatur alias necessitatibus delectus? Dicta, animi eius? Consectetur?",
+      "projectDescription": "An SPA recreation of the 'Discord' website homepage. The recreation includes accurate layout styling, fonts, graphics, animations, and content. Desktop, laptop, and mobile resolutions are supported.",
       "projectStack": ["React (vite)", "css-modules", "framer-motion"],
       "projectIterations": ["Recreate additional pages with routing."],
       "projectImage": "./projects/diskord.png",

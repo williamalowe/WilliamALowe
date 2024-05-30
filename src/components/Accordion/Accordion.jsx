@@ -35,14 +35,20 @@ const Accordion = ({ alignment, title, children }) => {
 
   return (
     <div className={styles.accordion}>
-      <div
+      <motion.div
         className={styles.header}
         onClick={() => setShowContent(!showContent)}
         ref={headerRef}
+        whileHover={{
+          scale: 1.05
+        }}
+        whileTap={{
+          scale: 1.0
+        }}
       >
         <h5>{title}</h5>
         <FontAwesomeIcon icon={faArrowDown} ref={svgRef} />
-      </div>
+      </motion.div>
       <AnimatePresence>
         {showContent && (
           <motion.div
