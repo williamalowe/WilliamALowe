@@ -45,7 +45,7 @@
   .card {
     display: block;
     overflow: scroll;
-    height: 320px;
+    height: fit-content;
   }
   .description {
     flex-direction: column;
