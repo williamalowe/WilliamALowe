@@ -24,3 +24,17 @@
   border-right: 1px solid var(--text-color);
   border-bottom: 1px solid var(--text-color);
 }
+
+@media screen and (max-width: 760px) {
+  .header {
+    padding: 1rem;
+  }
+  .header > svg {
+    flex: 1;
+  }
+  .header > h5 {
+    flex: 1;
+    text-align: center;
+    padding: 0;
+  }
+}
