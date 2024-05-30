@@ -12,7 +12,9 @@ const Experience = () => {
       ) : (
         <Header bodyText="Educational" highlightText="Experience" />
       )}
-      <div className={styles.content}></div>
+      <div className={styles.content}>
+        
+      </div>
     </div>
   );
 };
