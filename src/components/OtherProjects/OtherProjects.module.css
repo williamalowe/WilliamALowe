@@ -1,6 +1,31 @@
 .others {
-  height: 260px;
+  height: 300px;
   padding: 0.5rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
+  text-align: center;
+}
+.others > article > h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.others > article > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem ;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.others > article > ul > li {
+
+}
+.others > article > ul > li::before {
+  content: "| ";
+}
+.others > article > ul > li:first-child::before {
+  content: "";
 }
