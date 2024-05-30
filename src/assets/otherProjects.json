@@ -1,0 +1,19 @@
+{
+  "otherProjects": [
+    {
+      "projectName": "This Site!",
+      "projectDescription": "This personal/portfolio site was built to introduce myself, and showcase my projects. This site has gone through many iterations, with updates to projects, personal details, features, and styling choices.",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "framer-motion", "emailjs-service"]
+    },
+    {
+      "projectName": "Sentinel - WIP",
+      "projectDescription": "A creative writing project, inspired by SCP and X-Files. Similar to a personal blog, the application hosts articles in the form of leaked mission reports from a secretive organsisation. The project is full of secrets with an increasing access level, that updates only when specific conditions or interactions are met by the user.",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI", "Express", "MongoDB"]
+    },
+    {
+      "projectName": "Mindly - WIP",
+      "projectDescription": "A habit-tracking application that allows for users to store notes, set reminders, and keep count of habits. The application will also gamify their habit tracking with live-stats, milestone goals, and social media integration for sharing achievements such as '7 days without smoking'. ",
+      "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI", "Express", "MongoBD"]
+    }
+  ]
+}

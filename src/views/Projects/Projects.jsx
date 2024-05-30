@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import styles from "./Projects.module.css";
 import projectData from "../../assets/projects.json";
+import OtherProjects from "../../components/OtherProjects/OtherProjects";
 
 const Projects = () => {
   const projects = projectData.projects;
@@ -28,6 +29,12 @@ const Projects = () => {
             />
           </Accordion>
         ))}
+        <Accordion
+          title="Other Projects"
+          alignment="left"
+        >
+          <OtherProjects />
+        </Accordion>
       </div>
     </div>
   );
