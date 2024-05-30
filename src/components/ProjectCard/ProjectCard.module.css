@@ -1,0 +1,42 @@
+.card {
+  height: 260px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.description {
+  flex: 2;
+}
+.img {
+  flex: 1;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.lists {
+  display: flex;
+}
+.lists > div {
+  flex: 1;
+}
+.links {
+  display: flex;
+  gap: 1rem;
+}
+.links > a {
+  display: flex;
+  align-items: center;
+  background: var(--text-color);
+  color: var(--bg-primary);
+  padding: 0.5rem;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img > img {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+}

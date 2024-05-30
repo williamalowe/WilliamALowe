@@ -52,7 +52,7 @@ const Accordion = ({ alignment, title, children }) => {
               opacity: 0,
             }}
             animate={{
-              height: 100,
+              height: 'fit-content',
               opacity: 1,
             }}
             exit={{
