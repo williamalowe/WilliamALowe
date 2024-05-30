@@ -4,7 +4,7 @@
 .header {
   display: flex;
   border: 1px solid var(--text-color);
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   cursor: pointer;
   color: var(--bg-primary);
   background: var(--text-color);
