@@ -1,0 +1,53 @@
+{
+  "professional": [
+    {
+      "institute": "Ipsos Pty Ltd - South Yarra",
+      "role": "VISTA Data Entry Team Leader",
+      "start": "2023",
+      "end": "Ongoing",
+      "description": "Conducted QA on digitized surveys, as well as provided training/feedback to team-members. Assisted with onboarding new staff, and assisted regularly with other projects. Conducted logic checks on datasets, and also tested, documentated, and provided feedback for new internal data entry systems and tools."
+    },
+    {
+      "institute": "Ipsos Pty Ltd - South Yarra",
+      "role": "VISTA Data Entry Team Member",
+      "start": "2022",
+      "end": "2023",
+      "description": "Highly detail-oriented role, digitizing respondent surveys for the Victorian Department of Transport VISTA project. Communcated with respondents for any inquiries, as well as clarify any survey issues with appropriate stakeholders and provide accurate and thorough documentation for any clarifications or survey issues."
+    },
+    {
+      "institute": "Thoth Tech - Deakin University",
+      "role": "Student Frontend Developer",
+      "start": "2023",
+      "end": "2023",
+      "description": "Assisted in frontend-migration tasks of live Doubtfire: Ontrack education platform, built with Angular and Ruby-on-rails, with 1000s of daily users. Updated outdated and depreciated Angular fxLayout properties with equivalent tailwind styles. Provided code reviews, bug resolutions, and PRs for dozens of components. Invited to return as a student mentor for other students.'"
+    },
+    {
+      "institute": "Yea Medical Center",
+      "role": "IT Technical Support/Advisor",
+      "start": "2021",
+      "end": "2023",
+      "description": "Resolved various IT-related issues. Updated hardware and SQL database software across entire practice. Set up backup security measures, and worked with MedicalDirector to oversee system security and management. Provided advice on hardware and software solutions."
+    },
+    {
+      "institute": "Grill'd Pty Ltd - Hawthorn",
+      "role": "Hospitality Team Leader",
+      "start": "2018",
+      "end": "2022",
+      "description": "Completed leadership training at the request of both management and team-members. Completed team-member duties as well as oversaw day-to-day operations, managed customer inquieries/complaints, created station plans, trained new team-members and upcoming team-leaders. Opened and closed the restaurant, managed stock levels and set team KPIs."
+    },
+    {
+      "institute": "Grill'd Pty Ltd - Hawthorn",
+      "role": "Hospitality Team Member",
+      "start": "2021",
+      "end": "2022",
+      "description": "Operated in high-paced work environment, working both back-of-house/kitchen, and front-of-house/floor. Highly proficient at all stations, became a versatile team-member, able to help any station/role that was overwhelmed."
+    },
+    {
+      "institute": "Other",
+      "role": "Various",
+      "start": "",
+      "end": "",
+      "description": "Volunteer Oaks Day Bartender @ Beaufort Manor. Packing Worker @ Koala Cherries Pty Ltd. Picker/Packer @ Karrick Cherries."
+    }
+  ]
+}
