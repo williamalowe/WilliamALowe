@@ -11,8 +11,13 @@
   flex: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contact {
     width: 100%;
   }
+}
+@media screen and (max-width: 768px) {
+  /* .contact {
+    width: 100%;
+  } */
 }

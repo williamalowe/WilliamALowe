@@ -12,8 +12,13 @@
 .stepper {
   margin-top: 2rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .experience {
     width: 100%;
   }
+}
+@media screen and (max-width: 768px) {
+  /* .experience {
+    width: 100%;
+  } */
 }
