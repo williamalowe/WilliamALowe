@@ -1,5 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Header from '../Header/Header';
+import Socials from '../Socials/Socials';
 import styles from './ContactBanner.module.css';
+import { faEnvelopeOpen, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const ContactBanner = () => {
   return (
@@ -9,6 +12,17 @@ const ContactBanner = () => {
         bodyText='Currently: '
         highlightText='Available for work.'
       />
+      <div className={styles.contactIcons}>
+        <div>
+          <FontAwesomeIcon icon={faLocationDot} />
+          <h5>Melbourne, Australia</h5>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faEnvelopeOpen} />
+          <h5>WilliamAndrewLowe@Gmail.com</h5>
+        </div>
+      </div>
+      <Socials />
     </div>
   )
 }
