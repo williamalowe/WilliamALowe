@@ -1,6 +1,7 @@
 .stepper {
   display: flex;
   flex-direction: column;
+  line-height: 1.25rem;
 }
 .stepper>li {
   position: relative;
@@ -15,8 +16,8 @@
   flex: 0 0 2rem;
   height: 2rem;
   border-radius: 50%;
-  border: 3px solid var(--highlight-color);
-  background: var(--background-color);
+  border: 3px solid var(--text-color);
+  background: var(--bg-primary);
 }
 .stepper>li:not(:last-child):after {
   content: "";
@@ -26,18 +27,21 @@
   bottom: 0;
   transform: translateX(1rem);
   width: 3px;
-  background: var(--highlight-color);
+  background: var(--text-color);
+}
+.content > h3 {
+  font-size: 1.2rem;
 }
 .content>h5 {
-  font-size: 0.8rem;
-  color: var(--highlight-color);
+  font-style: italic;
+  color: var(--text-color);
 }
 .content>p {
-  font-size: 0.8rem;
   font-weight: 600;
   font-style: italic;
 }
 .content>p:last-child {
+  margin-top: 0.5rem;
   font-style: normal;
   font-weight: 400;
 }
