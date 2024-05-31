@@ -2,26 +2,26 @@
   "education": [
     {
       "institute": "Deakin University - Burwood",
-      "qualification": "Bachelor of Computer Science",
-      "completed": "Est. Completion 2024",
+      "subheader": "Bachelor of Computer Science",
+      "date": "Est. Completion 2024",
       "description": "Gained an understanding of computer systems, software development, algorithms, and problem-solving techniques. Core units provided the foundational basis for concepts including AI, networking, security, programming principles, and more. Completed elective units in UI/UX Design, Responsive Web Applications, and Games Design. Completed Capstone Units working on frontend migration tasks for a live education platform with 1000s of daily users."
     },
     {
       "institute": "The Odin Project - Online",
-      "qualification": "Full Stack JavaScript",
-      "completed": "Completed 2024",
+      "subheader": "Full Stack JavaScript",
+      "date": "Completed 2024",
       "description": "Completed foundations course covering basics of HTML, CSS, and JavaScript. Also compeleted the Fullstack JavaScript course, covering more advanced HTML, CSS, and JavaScript as well as React, Node, Jest, Git, web design principles, best practices, and more."
     },
     {
       "institute": "Deakin College - Burwood",
-      "qualification": "Diploma of Information Technology",
-      "completed": "Completed 2020",
+      "subheader": "Diploma of Information Technology",
+      "date": "Completed 2020",
       "description": "Gained a foundational understanding of general IT concepts, including computer hardware, software applications, networking fundamentals, and introductory programming."
     },
     {
       "institute": "Other Education",
-      "qualification": "Various",
-      "completed": "",
+      "subheader": "Various",
+      "date": "",
       "description": "Initially studied Biomedical Science (discontinued) @ Swinburne University of Technology. Cert IV in Hospitality @ Sarina Russo Institute. Year 12 VCE Graduate @ Calfield Grammar School."
     }
   ]

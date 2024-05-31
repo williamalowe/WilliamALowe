@@ -1,0 +1,43 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+}
+.stepper>li {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+.stepper>li:before {
+  content: "";
+  position: relative;
+  z-index: 1;
+  flex: 0 0 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 3px solid var(--highlight-color);
+  background: var(--background-color);
+}
+.stepper>li:not(:last-child):after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transform: translateX(1rem);
+  width: 3px;
+  background: var(--highlight-color);
+}
+.content>h5 {
+  font-size: 0.8rem;
+  color: var(--highlight-color);
+}
+.content>p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.content>p:last-child {
+  font-style: normal;
+  font-weight: 400;
+}
