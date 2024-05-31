@@ -24,7 +24,14 @@ const Experience = () => {
           visibleTab={visibleExperience}
         />
         <div className={styles.stepper}>
+        {
+          visibleExperience && 
           <Stepper listItems={professionalList} />
+        }
+        {
+          !visibleExperience && 
+          <Stepper listItems={educationList} />
+        }
         </div>
       </div>
     </div>
