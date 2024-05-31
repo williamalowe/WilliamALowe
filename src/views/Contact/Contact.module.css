@@ -2,6 +2,14 @@
   width: 1024px;
   height: 100%;
 }
+.content {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.content > div {
+  flex: 1;
+}
 
 @media screen and (max-width: 768px) {
   .contact {

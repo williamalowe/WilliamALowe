@@ -11,6 +11,9 @@
   border-radius: 0.5rem;
   background: transparent;
 }
+.form > textarea {
+  height: 200px;
+}
 .form > button {
   font-family: "M PLUS 1 Code", monospace;
   font-size: 1rem;

@@ -1,0 +1,10 @@
+.banner {
+
+}
+.banner > p {
+  line-height: 1.5rem;
+}
+.banner > p > span {
+  font-weight: 600;
+  font-style: italic;
+}

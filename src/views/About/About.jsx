@@ -8,6 +8,7 @@ const About = () => {
       <Header 
         bodyText='About'
         highlightText='Me.'
+        fontSize='2.5rem'
       />
       <div className={styles.shuffle}>
         <CardDeck />

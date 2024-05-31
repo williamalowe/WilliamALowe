@@ -7,12 +7,13 @@ import styles from "./Welcome.module.css";
 const Welcome = () => {
   return (
     <div className={styles.welcome}>
-      <Header bodyText="Hi there, I'm" highlightText="William Lowe." />
-      <WelcomeBanner />
-      <NavButton 
-        link={'./about'}
-        text={'Learn more about me'}
+      <Header
+        bodyText="Hi there, I'm"
+        highlightText="William Lowe."
+        fontSize="2.5rem"
       />
+      <WelcomeBanner />
+      <NavButton link={"./about"} text={"Learn more about me"} />
       <Socials />
     </div>
   );

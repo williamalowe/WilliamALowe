@@ -10,7 +10,7 @@ const Projects = () => {
 
   return (
     <div className={styles.projects}>
-      <Header bodyText="Personal" highlightText="Projects." />
+      <Header bodyText="Personal" highlightText="Projects." fontSize="2.5rem" />
       <div className={styles.content}>
         {projects.map((project, index) => (
           <Accordion
@@ -29,10 +29,7 @@ const Projects = () => {
             />
           </Accordion>
         ))}
-        <Accordion
-          title="Other Projects"
-          alignment="left"
-        >
+        <Accordion title="Other Projects" alignment="left">
           <OtherProjects />
         </Accordion>
       </div>

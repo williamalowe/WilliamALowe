@@ -14,9 +14,17 @@ const Experience = () => {
   return (
     <div className={styles.experience}>
       {visibleExperience ? (
-        <Header bodyText="Professional" highlightText="Experience" />
+        <Header
+          bodyText="Professional"
+          highlightText="Experience"
+          fontSize="2.5rem"
+        />
       ) : (
-        <Header bodyText="Educational" highlightText="Experience" />
+        <Header
+          bodyText="Educational"
+          highlightText="Experience"
+          fontSize="2.5rem"
+        />
       )}
       <div className={styles.content}>
         <ExperienceSwitch
@@ -24,14 +32,8 @@ const Experience = () => {
           visibleTab={visibleExperience}
         />
         <div className={styles.stepper}>
-        {
-          visibleExperience && 
-          <Stepper listItems={professionalList} />
-        }
-        {
-          !visibleExperience && 
-          <Stepper listItems={educationList} />
-        }
+          {visibleExperience && <Stepper listItems={professionalList} />}
+          {!visibleExperience && <Stepper listItems={educationList} />}
         </div>
       </div>
     </div>
