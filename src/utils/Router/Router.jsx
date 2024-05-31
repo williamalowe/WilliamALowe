@@ -4,6 +4,7 @@ import Welcome from "../../views/Welcome/Welcome";
 import About from "../../views/About/About";
 import Projects from "../../views/Projects/Projects";
 import Experience from "../../views/Experience/Experience";
+import Contact from "../../views/Contact/Contact";
 
 const Router = () => {
   const Router = createBrowserRouter([
@@ -30,7 +31,7 @@ const Router = () => {
         },
         {
           path:'/contact',
-          element: <>Contact</>
+          element: <Contact />
         },
       ]
     }

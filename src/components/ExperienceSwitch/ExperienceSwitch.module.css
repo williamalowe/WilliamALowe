@@ -46,3 +46,9 @@
 .active {
   color: var(--bg-primary);
 }
+
+@media screen and (max-width: 768px) {
+  .switch {
+    width: 100%;
+  }
+}
