@@ -3,6 +3,7 @@ import styles from "./ContactForm.module.css";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from 'framer-motion'
 
 const ContactForm = () => {
   const [email, setEmail] = useState("");
@@ -47,6 +48,7 @@ const ContactForm = () => {
       <input
         type="text"
         placeholder="Name"
+        name="nameInput"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
@@ -54,19 +56,24 @@ const ContactForm = () => {
       <input
         type="email"
         placeholder="Email"
+        name="emailInput"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
       />
       <textarea
         placeholder="Message"
+        name="messageInput"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         required
       />
-      <button onClick={handleSubmit}>
+      <motion.button onClick={handleSubmit}
+        whileHover={{scale: 1.05}}
+        whileTap={{scale: 0.9}}
+      >
         <FontAwesomeIcon icon={faPaperPlane} />
-      </button>
+      </motion.button>
     </form>
   );
 };
