@@ -4,6 +4,13 @@
   flex-direction: column;
   gap: 1rem;
 }
+.center {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
 .banner > p {
   line-height: 1.5rem;
 }
@@ -19,6 +26,9 @@
 .contactIcons > div {
   display: flex;
   gap: 1rem;
+}
+.contactIcons > div > h5 {
+  letter-spacing: 1px;
 }
 .contactIcons > div > svg {
   width: 24px;
