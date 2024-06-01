@@ -1,13 +1,17 @@
+import { motion } from 'framer-motion';
 import styles from './Card.module.css';
 
 const Card = ({ header, children }) => {
   return (
-    <div className={styles.card}>
+    <motion.div 
+      className={styles.card}
+      whileHover={{ scale: 1.1 }}
+    >
       <div className={styles.header}>
         {header}
       </div>
         {children}
-    </div>
+    </motion.div>
   )
 }
 
