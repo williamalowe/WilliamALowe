@@ -1,10 +1,10 @@
 .deck {
-  width: 1024px;
-  height: 600px;
+  height: 90%;
   position: absolute;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: end;
 }
 .deck > div {
   position: absolute;
@@ -39,5 +39,4 @@
 }
 .deck:hover > div:nth-child(4) {
   transform: translate(-80%, 22.5%) rotate(-30deg);
-
 }
