@@ -24,22 +24,16 @@ const MobileCardDeck = () => {
             {displayCard === 0 && (
               <motion.div
               initial={{
-                x: -10,
-                y: "120%",
-                rotate: -90,
+                opacity: 0,
+                x: -20
               }}
               animate={{
-                x: 0,
-                y: 0,
-                rotate: 0
+                opacity: 1,
+                x: 0
               }}
               exit={{
-                x: 20,
-                y: "120%",
-                rotate: 90,
-              }}
-              transition={{
-                duration: 0.5
+                opacity: 0,
+                x: 20
               }}
               >
                 <Card header="G'day!">
@@ -55,24 +49,18 @@ const MobileCardDeck = () => {
           <AnimatePresence mode="popLayout">
             {displayCard === 1 && (
               <motion.div
-                initial={{
-                  x: -10,
-                  y: "120%",
-                  rotate: -90,
-                }}
-                animate={{
-                  x: 0,
-                  y: 0,
-                  rotate: 0
-                }}
-                exit={{
-                  x: 20,
-                  y: "120%",
-                  rotate: 90,
-                }}
-                transition={{
-                  duration: 0.5
-                }}
+              initial={{
+                opacity: 0,
+                x: -20
+              }}
+              animate={{
+                opacity: 1,
+                x: 0
+              }}
+              exit={{
+                opacity: 0,
+                x: 20
+              }}
               >
                 <Card header="Interests">
                   <p>
@@ -90,22 +78,16 @@ const MobileCardDeck = () => {
             {displayCard === 2 && (
               <motion.div
               initial={{
-                x: -10,
-                y: "120%",
-                rotate: -90,
+                opacity: 0,
+                x: -20
               }}
               animate={{
-                x: 0,
-                y: 0,
-                rotate: 0
+                opacity: 1,
+                x: 0
               }}
               exit={{
-                x: 20,
-                y: "120%",
-                rotate: 90,
-              }}
-              transition={{
-                duration: 0.5
+                opacity: 0,
+                x: 20
               }}
               >
                 <Card header="Experience">
@@ -126,22 +108,16 @@ const MobileCardDeck = () => {
             {displayCard === 3 && (
               <motion.div
               initial={{
-                x: -10,
-                y: "120%",
-                rotate: -90,
+                opacity: 0,
+                x: -20
               }}
               animate={{
-                x: 0,
-                y: 0,
-                rotate: 0
+                opacity: 1,
+                x: 0
               }}
               exit={{
-                x: 20,
-                y: "120%",
-                rotate: 90,
-              }}
-              transition={{
-                duration: 0.5
+                opacity: 0,
+                x: 20
               }}
               >
                 <Card header="Goals">
