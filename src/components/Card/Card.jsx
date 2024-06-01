@@ -1,14 +1,12 @@
 import styles from './Card.module.css';
 
-const Card = ({ header, body }) => {
+const Card = ({ header, children }) => {
   return (
     <div className={styles.card}>
       <div className={styles.header}>
         {header}
       </div>
-      <p>
-        {body}
-      </p>
+        {children}
     </div>
   )
 }
