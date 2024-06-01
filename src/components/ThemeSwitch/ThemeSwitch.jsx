@@ -6,6 +6,17 @@ const ThemeSwitch = ({ handleClick }) => {
     <motion.button 
       className={styles.switch} 
       onClick={handleClick}
+      initial={{
+        opacity: 0,
+        x: 20
+      }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.5
+        }
+      }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
     >
