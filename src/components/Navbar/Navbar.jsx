@@ -49,13 +49,30 @@ const Navbar = () => {
       >
         <motion.div
           id="logo"
+          initial={{
+            opacity: 0,
+            x: -20
+          }}
+          animate={{
+            opacity: 1,
+            x: 0
+          }}
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
         >
           &#123; WL &#125;
         </motion.div>
       </NavLink>
-      <div className="nav_link_container">
+      <motion.div className="nav_link_container"
+        initial={{
+          opacity: 0,
+          x: 20
+        }}
+        animate={{
+          opacity: 1,
+          x: 0
+        }}
+      >
         <NavLink to={"/about"}>
           &lt;About&gt;
           <div className="underline"></div>
@@ -72,7 +89,7 @@ const Navbar = () => {
           &lt;Contact&gt;
           <div className="underline"></div>
         </NavLink>
-      </div>
+      </motion.div>
       <div className="mobile">
         <button onClick={() => setShowNav(!showNav)}>&lt;{viewPage}&gt;</button>
         <AnimatePresence>
