@@ -1,9 +1,36 @@
+import { motion } from "framer-motion";
 import Card from "../Card/Card";
 import styles from "./CardDeck.module.css";
 
+const parent={
+  hidden: {},
+  mounted: {
+    transition: {
+      duration: 0.5,
+      delayChildren: 0.3,
+      staggerChildren: 0.2
+    }
+  }
+}
+const child={
+  hidden: {
+    opacity: 0,
+  },
+  mounted: {
+    opacity: 1,
+  }
+}
+
 const CardDeck = () => {
   return (
-    <div className={styles.deck}>
+    <motion.div className={styles.deck}
+      variants={parent}
+      initial='hidden'
+      animate='mounted'
+    >
+      <motion.div
+        variants={child}
+      >
       <Card header="Goals">
         <p>
           While continually practicing the fundamentals, my next learning goals
@@ -13,6 +40,11 @@ const CardDeck = () => {
           transitioning from frontend into a full stack developer.
         </p>
       </Card>
+      </motion.div>
+      <motion.div
+        variants={child}
+      >
+
       <Card header="Experience">
         <p>
           Proficient in HTML, CSS, JavaScript, and React, I am soon to graduate
@@ -23,6 +55,11 @@ const CardDeck = () => {
           and social/market research.
         </p>
       </Card>
+      </motion.div>
+      <motion.div
+        variants={child}
+      >
+
       <Card header="Interests">
         <p>
           I&apos;m a big nerd with a love for TV/movies, gaming, and tech in
@@ -31,6 +68,11 @@ const CardDeck = () => {
           especially fishing, camping, longboarding, and swimming.
         </p>
       </Card>
+      </motion.div>
+      <motion.div
+        variants={child}
+      >
+
       <Card header="G'day!">
         <p>
           My name is William Lowe, a fresh aussie frontend developer, and I want
@@ -38,7 +80,8 @@ const CardDeck = () => {
         </p>
         <img src="profile.jpg" alt="profile picture" />
       </Card>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
