@@ -7,13 +7,20 @@
   height: 600px;
   transform: translateY(-3rem);
 }
+.mobile {
+  display: none;
+  margin-top: 2rem;
+}
 @media screen and (max-width: 1024px) {
   .about {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* .about {
-    width: 100%;
-  } */
+  .shuffle {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
