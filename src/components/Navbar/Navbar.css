@@ -6,17 +6,24 @@ a {
   width: 1176px;
   display: flex;
   align-items: center;
-  background: var(--bg-primary);
   z-index: 100;
 }
 #logo {
+  box-sizing: border-box;
   font-size: 3rem;
   font-weight: 600;
+  background: var(--bg-primary);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 .nav_link_container {
+  box-sizing: border-box;
   margin-left: auto;
   display: flex;
   gap: 1rem;
+  background: var(--bg-primary);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 .nav_link_container > a > .underline {
   width: 0%;
