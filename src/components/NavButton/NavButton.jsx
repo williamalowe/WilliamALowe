@@ -6,7 +6,20 @@ import { motion } from 'framer-motion';
 
 const NavButton = ({ link, text }) => {
   return (
-    <div className={styles.navbutton}>
+    <motion.div className={styles.navbutton}
+    initial={{
+      opacity: 0,
+      x: -20
+    }}
+    animate={{
+      opacity: 1,
+      x: 0
+    }}
+    transition={{
+      delay: 1,
+      duration: 0.5,
+    }}
+    >
       <Link to={link}>
         <div className={styles.text}>
           {text}
@@ -28,7 +41,7 @@ const NavButton = ({ link, text }) => {
           <FontAwesomeIcon icon={faRightLong} />
         </motion.div>
       </Link>
-    </div>
+    </motion.div>
   );
 };
 
