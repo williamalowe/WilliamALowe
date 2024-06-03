@@ -5,6 +5,25 @@ import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from 'framer-motion'
 
+const parent={
+  hidden: {},
+  mounted: {
+    transition: {
+      duration: 0.5,
+      delayChildren: 0.3,
+      staggerChildren: 0.2
+    }
+  }
+}
+const child={
+  hidden: {
+    opacity: 0,
+  },
+  mounted: {
+    opacity: 1,
+  }
+}
+
 const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -44,8 +63,15 @@ const ContactForm = () => {
   console.log(name, email, message);
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
-      <input
+    <motion.form 
+      className={styles.form} 
+      onSubmit={handleSubmit}
+      variants={parent}
+      initial='hidden'
+      animate='mounted'
+    >
+      <motion.input
+        variants={child}
         type="text"
         placeholder="Name"
         name="nameInput"
@@ -53,7 +79,8 @@ const ContactForm = () => {
         onChange={(e) => setName(e.target.value)}
         required
       />
-      <input
+      <motion.input
+        variants={child}
         type="email"
         placeholder="Email"
         name="emailInput"
@@ -61,7 +88,8 @@ const ContactForm = () => {
         onChange={(e) => setEmail(e.target.value)}
         required
       />
-      <textarea
+      <motion.textarea
+        variants={child}
         placeholder="Message"
         name="messageInput"
         value={message}
@@ -69,12 +97,13 @@ const ContactForm = () => {
         required
       />
       <motion.button onClick={handleSubmit}
+        variants={child}
         whileHover={{scale: 1.05}}
         whileTap={{scale: 0.9}}
       >
         <FontAwesomeIcon icon={faPaperPlane} />
       </motion.button>
-    </form>
+    </motion.form>
   );
 };
 
