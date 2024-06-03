@@ -52,6 +52,9 @@ a {
 .mobile {
   display: none;
   margin-left: auto;
+  background: var(--bg-primary);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 .mobile > button {
   border: none;
