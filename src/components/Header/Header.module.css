@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    flex-direction: column;
-    gap: 0;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 }
 
