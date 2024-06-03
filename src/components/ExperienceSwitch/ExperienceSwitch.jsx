@@ -1,11 +1,21 @@
-import { useState } from 'react';
 import styles from './ExperienceSwitch.module.css';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const ExperienceSwitch = ({ handleClick, visibleTab }) => {
   
   return (
-    <div className={styles.switch} onClick={handleClick}>
+    <motion.div 
+      className={styles.switch} 
+      onClick={handleClick}
+      initial={{
+        opacity: 0,
+        x: -20
+      }}
+      animate={{
+        opacity: 1,
+        x: 0
+      }}
+    >
       <div className={styles.left}>
         <h5 className={visibleTab ? styles.active : ''}>Professional</h5>
         <AnimatePresence>
@@ -44,7 +54,7 @@ const ExperienceSwitch = ({ handleClick, visibleTab }) => {
         }
         </AnimatePresence>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
