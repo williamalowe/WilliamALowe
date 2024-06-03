@@ -13,6 +13,13 @@
 .mobile {
   display: none;
 }
+.mobile {
+  line-height: 1.5rem;
+}
+.mobile > span {
+  font-weight: 600;
+  font-style: italic;
+}
 
 @media screen and (max-width: 1024px) {
   .contact {
