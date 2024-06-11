@@ -2,12 +2,12 @@
   "projects": [
     {
       "projectName": "Dockitt",
-      "projectDescription": "A productivity and task management application that allows for easy task generation and task-state management. Tasks are persistent with the use of local-storage and can be filtered, updated, and cancelled. Desktop, laptop, and mobile resolutions are supported.",
+      "projectDescription": "A kanban-style productivity and task management application that allows for easy task generation and task-state management. Tasks are persistent with the use of local-storage and can be filtered, updated, and cancelled. Desktop, laptop, and mobile resolutions are supported.",
       "projectStack": ["React (vite)", "css-modules", "react-router-dom", "ContextAPI", "local-storage"],
-      "projectIterations": ["Additional supported resolutions (tablet, etc)", "MongoDB integration", "Light-mode theme", "Kanban-board view option"],
+      "projectIterations": ["Additional supported resolutions (tablet, etc)", "MongoDB integration", "Multiple-project creation", "Live task update log"],
       "projectImage": "./projects/dockitt.png",
-      "repoURL": "https://github.com/williamalowe/Dockitt",
-      "demoURL": "https://dockitt.netlify.app/tasks"
+      "repoURL": "https://github.com/williamalowe/Dockitt.v2",
+      "demoURL": "https://dockitt.netlify.app"
     },
     {
       "projectName": "ThreadHundred",
