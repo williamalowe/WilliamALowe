@@ -34,7 +34,7 @@ const CardDeck = () => {
       <Card header="Goals">
         <p>
           While continually practicing the fundamentals, my next learning goals
-          include transitioning to TypeScript, and diving deeper into Mongo,
+          include transitioning to Next.js and TypeScript, and diving deeper into Mongo,
           Express, Node, Jest, and Vitest to ensure I have a robust and
           versatile skillset. After some time, I also aim to upskill,
           transitioning from frontend into a full stack developement.
