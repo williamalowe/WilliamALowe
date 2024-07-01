@@ -23,18 +23,18 @@ const MobileCardDeck = () => {
           <AnimatePresence mode="popLayout">
             {displayCard === 0 && (
               <motion.div
-              initial={{
-                opacity: 0,
-                x: -20
-              }}
-              animate={{
-                opacity: 1,
-                x: 0
-              }}
-              exit={{
-                opacity: 0,
-                x: 20
-              }}
+                initial={{
+                  opacity: 0,
+                  x: -20,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  x: 20,
+                }}
               >
                 <Card header="G'day!">
                   <p>
@@ -49,18 +49,18 @@ const MobileCardDeck = () => {
           <AnimatePresence mode="popLayout">
             {displayCard === 1 && (
               <motion.div
-              initial={{
-                opacity: 0,
-                x: -20
-              }}
-              animate={{
-                opacity: 1,
-                x: 0
-              }}
-              exit={{
-                opacity: 0,
-                x: 20
-              }}
+                initial={{
+                  opacity: 0,
+                  x: -20,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  x: 20,
+                }}
               >
                 <Card header="Interests">
                   <p>
@@ -77,18 +77,18 @@ const MobileCardDeck = () => {
           <AnimatePresence mode="popLayout">
             {displayCard === 2 && (
               <motion.div
-              initial={{
-                opacity: 0,
-                x: -20
-              }}
-              animate={{
-                opacity: 1,
-                x: 0
-              }}
-              exit={{
-                opacity: 0,
-                x: 20
-              }}
+                initial={{
+                  opacity: 0,
+                  x: -20,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  x: 20,
+                }}
               >
                 <Card header="Experience">
                   <p>
@@ -107,27 +107,27 @@ const MobileCardDeck = () => {
           <AnimatePresence mode="popLayout">
             {displayCard === 3 && (
               <motion.div
-              initial={{
-                opacity: 0,
-                x: -20
-              }}
-              animate={{
-                opacity: 1,
-                x: 0
-              }}
-              exit={{
-                opacity: 0,
-                x: 20
-              }}
+                initial={{
+                  opacity: 0,
+                  x: -20,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  x: 20,
+                }}
               >
                 <Card header="Goals">
                   <p>
                     While continually practicing the fundamentals, my next
-                    learning goals include transitioning to TypeScript, and
-                    diving deeper into Mongo, Express, Node, Jest, and Vitest to
-                    ensure I have a robust and versatile skillset. After some
-                    time, I also aim to upskill, transitioning from frontend
-                    into a full stack developer.
+                    learning goals include transitioning to Next.js and
+                    TypeScript, and diving deeper into Mongo, Express, Node,
+                    Jest, and Vitest to ensure I have a robust and versatile
+                    skillset. After some time, I also aim to upskill,
+                    transitioning from frontend into a full stack developement.
                   </p>
                 </Card>
               </motion.div>
